@@ -10,6 +10,13 @@ function increment(){
     students.innerHTML = numStudents
 }
 
-function save(){
-    
+function save() {
+    saves = document.getElementById("saves")
+    saves.innerHTML += numStudents + " "
+}
+
+function reset(){
+    numStudents = 0
+    students = document.getElementById("count-el")
+    students.innerHTML = numStudents
 }
