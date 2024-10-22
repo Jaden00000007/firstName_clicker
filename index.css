@@ -29,21 +29,31 @@ body {
   }
   button {
     /*border: none; */
-    border: 1px solid #211717;
+    border: 5px solid #211717;
     padding-top: 10px;
     padding-bottom: 10px;
     color: black;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
+    transition: background-color 2s ease-out;
+    box-shadow: 0 9px darkgray;
   }
-  
+  button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
   #increment-btn {
    background: maroon;
   }
   
   #save-btn {
     background: #660063;
+  }
+  
+  #saves{
+    margin-top: 200px;
+    background-color: whitesmoke;
   }
     
